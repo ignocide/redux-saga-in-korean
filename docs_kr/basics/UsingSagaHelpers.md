@@ -71,7 +71,7 @@ function* watchFetchData() {
 <!-- For example: -->
 
 ```javascript
-import { takeEvery } from 'redux-saga'
+import { takeEvery } from 'redux-saga/effects'
 
 // FETCH_USERS
 function* fetchUsers(action) { ... }
